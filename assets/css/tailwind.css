@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-text {
+  @apply bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text;
+}
+
+.nav-link {
+  @apply relative;
+}
+
+.nav-link::after {
+  @apply content-[''] absolute w-0 h-0.5 bottom-0 left-0 bg-gradient-to-r from-blue-500 to-purple-600 transition-all duration-300;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+.project-card {
+  @apply transition-all duration-300 transform hover:-translate-y-2 hover:shadow-lg;
+}
+
+.skill-badge {
+  @apply transition-all duration-300;
+}
+
+.skill-badge:hover {
+  @apply scale-105;
+}
+
+.fade-in {
+  @apply animate-fadeIn;
+}
+
+.hero-image {
+  @apply animate-float;
+}
+
+.theme-toggle {
+  @apply transition-all duration-300;
+}
+
+.theme-toggle:hover {
+  @apply rotate-[30]
+}
+
+/* Dark Mode Overrides */
+.dark .nav-link {
+  @apply text-gray-200;
+}
+
+.dark .text-gray-600 {
+  @apply text-gray-300;
+}
+
+.dark .text-gray-800 {
+  @apply text-gray-200;
+}
+
+.dark .bg-gray-50 {
+  @apply bg-gray-900;
+}
+
+.dark .bg-white {
+  @apply bg-gray-800;
+}
+
+.dark .border-gray-300 {
+  @apply border-gray-600;
+}
+
+.dark .hover\:bg-gray-100:hover {
+  @apply bg-gray-700;
+}
+
+.dark .shadow-sm {
+  @apply shadow-md;
+}
