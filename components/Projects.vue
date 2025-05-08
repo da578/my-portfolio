@@ -62,7 +62,7 @@ const projects = [
         image: 'dart.png',
         name: 'Dart Reimplementation',
         description: 'A C-based reimplementation of Dart\'s core data structures (List, Set, Map) for educational and systems programming use cases. This project provides a hands-on exploration of memory management, function pointers, and modular C design to simulate object-oriented behavior in a low-level language.',
-        label: 'Laravel',
+        label: 'Dart',
         link: 'https://github.com/da578/dart-reimplementation'
     },
     {
