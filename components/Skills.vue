@@ -5,7 +5,7 @@
             <p class="max-w-2xl mx-auto mb-16 text-center text-gray-600 dark:text-gray-300 fade-in">My development
                 toolkit includes a range of modern technologies and frameworks that allow me to build high-quality,
                 scalable, and user-friendly web and mobile applications tailored to each project’s needs. </p>
-            <div class="grid grid-cols-2 gap-6 md:grid-cols-4 fade-in">
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 fade-in">
                 <!-- Frontend Skills -->
                 <div class="p-6 bg-white shadow-sm dark:bg-gray-800 rounded-xl">
                     <div class="flex items-center mb-4">
