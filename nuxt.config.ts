@@ -2,8 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: false },
-  nitro: { preset: import.meta.resolve('elysiajs-nuxt/preset') },
-  vite: { server: { origin: 'localhost:3000' } }, modules: ['@nuxtjs/tailwindcss', 'nuxt-lucide-icons'],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-lucide-icons'],
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
     config: 'tailwind.config.js',
@@ -16,5 +15,5 @@ export default defineNuxtConfig({
         { charset: 'utf-8' },
       ],
     },
-  },
+  }
 })
