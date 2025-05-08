@@ -23,7 +23,7 @@
         <div class="relative hero-image">
           <div
             class="flex items-center justify-center w-64 h-64 rounded-full md:w-80 md:h-80 bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900">
-            <img src="~/assets/images/profile.png" alt="Profile"
+            <img src="/images/profile.png" alt="Profile"
               class="object-cover border-4 border-white rounded-full w-60 h-60 md:w-72 md:h-72 dark:border-gray-800">
           </div>
           <div class="absolute p-3 bg-white rounded-full shadow-lg -bottom-5 -right-5 dark:bg-gray-800">
