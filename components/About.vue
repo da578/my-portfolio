@@ -41,7 +41,7 @@
                         </div>
                     </div>
                     <div class="flex flex-wrap gap-4">
-                        <a href="#"
+                        <a href="/documents/CV.pdf" download
                             class="flex items-center px-4 py-2 text-blue-600 rounded-full bg-blue-50 dark:bg-blue-900/30 dark:text-blue-300">
                             <LucideDownload class="mr-2" />
                             Download CV
